@@ -1,0 +1,123 @@
+.header {
+  max-width: 100%;
+  background-image: url('/img/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 15px 0;
+}
+.header::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.header-logo {
+  display: inline-block;
+}
+.header-logo::after {
+  content: 'BOX';
+  color: #86917d;
+  font-size: 30px;
+}
+.logo__box {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.875rem;
+  line-height: 50px;
+  color: #7a7a7a;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.header-row::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(255, 255, 255, 0.5);
+  margin: -38px auto;
+}
+.header-navigator {
+  display: flex;
+  align-items: center;
+}
+.header-navigator__items {
+  display: flex;
+}
+.navigator__item {
+  margin-left: 48px;
+}
+.navigator__item_text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.938rem;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.7);
+
+  position: relative;
+}
+.navigator__item_text:hover {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+.temolate_container {
+  max-width: 80%;
+  margin: 150px auto;
+}
+.temolate-title {
+  margin-bottom: 41px;
+  text-align: center;
+}
+.title__text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 70px;
+  color: #ffffff;
+}
+.temolate-subtitle {
+  margin-bottom: 77px;
+  text-align: center;
+}
+.temolate-subtitle__text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  color: #b9b1b1;
+}
+.temolate-button {
+  text-align: center;
+}
+.temolate-button_text {
+  padding: 11px 35px;
+  border: 1px solid salmon;
+  box-sizing: border-box;
+  outline: none;
+  background: transparent;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.938rem;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: salmon;
+  color: #ffffff;
+}
+.temolate-button_text:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

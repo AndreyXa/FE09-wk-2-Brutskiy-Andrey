@@ -1,0 +1,49 @@
+.contacts {
+  max-width: 100%;
+  padding: 100px 0;
+  background-color: #555fbd;
+}
+
+.contacts-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contacts-row__item {
+  width: 33%;
+}
+
+.contacts-item__title {
+  font-family: 'Raleway';
+  font-size: 0.875rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.contacts-item__discription {
+  font-family: 'Raleway';
+  font-size: 0.875rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contacts-item__social_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contacts-social__items {
+  list-style: none;
+  border: 1px solid rgba(250, 250, 250, 0.85);
+  width: 41px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3px;
+}

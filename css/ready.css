@@ -1,0 +1,49 @@
+.ready {
+  max-width: 100%;
+  padding: 100px 0;
+}
+.ready-title {
+  margin-bottom: 20px;
+}
+.ready-title__text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 50px;
+  color: #2b2828;
+  font-size: 35px;
+  text-align: center;
+}
+.ready-subtitle {
+  margin-bottom: 40px;
+}
+.subtitle__text {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+}
+.ready-button {
+  text-align: center;
+}
+.button__text {
+  padding: 11px 35px;
+  border: 1px solid salmon;
+  box-sizing: border-box;
+  outline: none;
+  background: transparent;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.938rem;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: salmon;
+  color: #ffffff;
+}
+.button__text:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
