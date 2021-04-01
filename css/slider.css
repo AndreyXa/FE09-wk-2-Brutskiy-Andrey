@@ -101,6 +101,7 @@
 .slider .slick-dots li {
   list-style: none;
   margin: 0px 7px;
+  margin-top: 20px;
 }
 
 .slider .slick-dots button {

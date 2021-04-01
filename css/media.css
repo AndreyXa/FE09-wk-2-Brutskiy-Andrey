@@ -1,0 +1,32 @@
+@media (max-width: 1200px) {
+  .slider-item-review {
+    font-size: 20px;
+  }
+}
+@media (max-width: 890px) {
+  .title__text {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .team-row {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .team-row__item {
+    margin-bottom: 30px;
+  }
+  .slider-item-review {
+    font-size: 20px;
+  }
+}
+@media (max-width: 790px) {
+  .header-navigator {
+    display: none;
+  }
+  .advantages-row__item {
+    width: 40%;
+  }
+  .team-row__item {
+    width: 30%;
+  }
+}
