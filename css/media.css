@@ -61,6 +61,9 @@
   .ready-title__text {
     font-size: 25px;
   }
+  .work-row__item:first-child {
+    display: none;
+  }
 }
 @media (max-width: 590px) {
   .title__text {
@@ -74,6 +77,9 @@
   .advantages__descriptions_text {
     font-size: 0.8rem;
   }
+  .work-row__item:last-child {
+    display: none;
+  }
 }
 @media (max-width: 390px) {
   .contacts-row {
@@ -85,13 +91,7 @@
   .team-row__item {
     width: 50%;
   }
-  .work-row__up {
-    flex-direction: column;
-  }
-  .work-row__down {
-    display: none;
-  }
-  .work-row__item {
-    max-width: 320px;
+  .works-row {
+    flex-wrap: wrap;
   }
 }
