@@ -1,12 +1,12 @@
 @media (max-width: 1200px) {
   .slider-item-review {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 
 @media (max-width: 890px) {
   .title__text {
-    font-size: 45px;
+    font-size: 2.81rem;
     line-height: 50px;
   }
   .team-row {
@@ -17,7 +17,7 @@
     margin-bottom: 30px;
   }
   .slider-item-review {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 @media (max-width: 790px) {
@@ -59,7 +59,7 @@
     width: 30%;
   }
   .ready-title__text {
-    font-size: 25px;
+    font-size: 1.56rem;
   }
   .work-row__item:first-child {
     display: none;
@@ -67,7 +67,7 @@
 }
 @media (max-width: 590px) {
   .title__text {
-    font-size: 25px;
+    font-size: 1.56rem;
     line-height: 30px;
   }
 
